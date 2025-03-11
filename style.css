@@ -1,0 +1,5 @@
+#proccessButtons{
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+}
