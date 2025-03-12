@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 481px;
+    height: 551px;
+    background-color: #B0C9FF;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #b0c9ff 0%, #313c82 100%);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.moneyS{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #757575;
+}
+.moneyButtons{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: auto;
+    column-gap: 17px;
+}
+
+.button{
+    cursor: pointer;
+    width: 318px;
+    height: 63px;
+    border-radius: 8px;
+    transition: all ease .5s;
+}
+
+
+.button:hover{
+    transform: scale(105%);
+}
+
+
+.withraw{
+    background: #d45151;
+}
+
+.deposit{
+    background: #4dd152;
+}
+
+
+#text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.08px;
+    white-space: nowrap;
+    text-align: center;
+    color: #ffffff;
+}

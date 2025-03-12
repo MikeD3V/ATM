@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sigma.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Document</title>
 </head>
 <body>
-    
-<div id="proccessButtons">
-    <button onclick="chechBalance()">Check Balance</button>
-    <button onclick="withraw()">Withraw</button>
-    <button onclick="deposit()">Deposit</button>
-</div>
+    <div class="parent">
 
+    <div class="moneyButtons">
+
+        <div class="moneyS">
+            <p id="money"></p>
+        </div>
+        <div class="buttons">
+            <div class="button withraw" onclick="withraw()"><p id="text" >Withraw</p id="text"></div>
+            <div class="button deposit" onclick="deposit()"><p id="text" >Deposit</p id="text"></div>
+        </div>
+    </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
