@@ -4,7 +4,7 @@
 var money = 500;
 var userMoney = document.getElementById('money');
 
-userMoney.innerText = '$' + money;
+userMoney.innerText = '₱' + money;
 
 
 
@@ -15,7 +15,7 @@ function withraw() {
 
     if (money >= withrawnMoney) {
         money -= withrawnMoney;
-        userMoney.innerText = '$' + money;
+        userMoney.innerText = '₱' + money;
     }
     else{
         alert("Not enough money");
@@ -30,7 +30,7 @@ function deposit() {
     }
     else{
         money += depositMoney;
-        userMoney.innerText = '$' + money;
+        userMoney.innerText = '₱' + money;
     }
 }
 
